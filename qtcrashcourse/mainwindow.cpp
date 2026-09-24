@@ -13,11 +13,5 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-QString outVal;
 
-void MainWindow::on_pushButton_clicked()
-{
-    outVal= ui->lineEdit->text();
-    ui->OutputLineEdit->setText(outVal);
-}
 
